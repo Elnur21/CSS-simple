@@ -1,0 +1,33 @@
+body {
+  font-family: "Vollkorn", serif;
+}
+header {
+  color: rgb(173, 169, 169);
+  min-height: 20vh;
+  background-color: rgb(51, 51, 51);
+  padding: 35px 0;
+}
+.logo {
+  text-transform: capitalize;
+  font-size: 15px;
+  float: left;
+}
+.logo p:first-child {
+  font-size: 40px;
+}
+.logo p:nth-child(2) {
+  margin-top: -10px;
+}
+header ul {
+  float: right;
+  text-transform: uppercase;
+  background-color: rgb(26, 25, 25);
+  font-size: 15px;
+}
+header li {
+  float: left;
+}
+header li a {
+  display: inline-block;
+  padding: 20px;
+}
