@@ -32,7 +32,7 @@ header li a {
   padding: 20px;
 }
 
-.first article{
+.first article {
   width: 33%;
   float: left;
   padding: 0px 15px;
@@ -40,34 +40,59 @@ header li a {
   height: 300px;
   color: grey;
 }
-h1{
+h1 {
   font-size: 2.5rem;
   font-style: italic;
+  font-weight: 200;
 }
-.first .big-image{
+.first .big-image {
   width: 630px;
   float: right;
   height: 300px;
   font-size: 2rem;
-  padding: 14%; 
+  padding: 14%;
 }
 
-.second article{
+.second article {
   float: left;
   width: calc(100% / 3.2);
   margin-right: 3%;
-
+  color: grey;
 }
-.second article:last-child{
+.second article:last-child {
   margin-right: 0 !important;
 }
-.second .parent-img{
-  float: left;
+.second article h3 {
+  text-transform: uppercase;
+}
+.second .parent-img {
   margin: 10px;
 }
-.small-img{
+.small-img {
   height: 80px;
   width: 80px;
-  padding: 30% 0; 
+  padding: 30% 0;
   font-size: 15px;
+}
+.third .parent-img {
+  margin-right: 21px;
+}
+.third .parent-img:last-child {
+  margin-right: 0px;
+}
+.medium-img {
+  height: 100px;
+  width: 215px;
+  padding: 17% 0;
+  font-size: 23px;
+}
+section {
+  margin-top: 30px;
+}
+.second article,
+.third .parent-img {
+  margin-top: 50px;
+}
+.third .parent-img {
+  margin-bottom: 50px;
 }

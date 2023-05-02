@@ -1,20 +1,18 @@
-a.read-more{
-    float: right;
-    color: orange;
+a.read-more {
+  float: right;
+  color: orange;
 }
-.container{
-    width: 50%;
-    margin: 0 auto;
+.container {
+  width: 50%;
+  margin: 0 auto;
 }
-.second{
-    margin-top: 20px;
+.image {
+  color: white;
+  background-color: rgba(26, 25, 25, 0.907);
+  text-align: center;
 }
-.image{
-    color: white;
-    background-color: rgba(26, 25, 25, 0.907);
-    text-align: center;  
-}
-.parent-img{
-    border: 1px solid black;
-    padding: 2.6px;
+.parent-img {
+  float: left;
+  border: 1px solid black;
+  padding: 2.6px;
 }
