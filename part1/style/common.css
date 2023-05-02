@@ -6,12 +6,15 @@ a.read-more{
     width: 50%;
     margin: 0 auto;
 }
-section{
+.second{
     margin-top: 20px;
 }
 .image{
     color: white;
     background-color: rgba(26, 25, 25, 0.907);
-    text-align: center;
-    padding: 14%;
+    text-align: center;  
+}
+.parent-img{
+    border: 1px solid black;
+    padding: 2.6px;
 }
