@@ -3,7 +3,7 @@ body {
 }
 header {
   color: rgb(173, 169, 169);
-  min-height: 20vh;
+  min-height: 14vh;
   background-color: rgb(51, 51, 51);
   padding: 35px 0;
 }
@@ -30,4 +30,23 @@ header li {
 header li a {
   display: inline-block;
   padding: 20px;
+}
+
+.first article{
+  width: 33%;
+  float: left;
+  padding: 0px 15px;
+  background-color: rgba(128, 128, 128, 0.208);
+  height: 300px;
+  color: grey;
+}
+h1{
+  font-size: 2.5rem;
+  font-style: italic;
+}
+.first .big-image{
+  width: 630px;
+  float: right;
+  height: 300px;
+  font-size: 2rem;
 }
