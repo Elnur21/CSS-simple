@@ -36,9 +36,27 @@ header button{
     color: white;
     font-family:"Segoe UI",Arial,sans-serif;
 }
-.banner h2, .banner p{
-    transform: translateY(87vh);
+.banner h2{
+    padding-top: 800px;
 }
 .banner p{
     margin-top: 30px;
+}
+
+.about h1{
+    font-size: 30px;
+}
+.about>.container>p{
+    text-align: justify;
+}
+.articles-about article img{
+    margin-top: 20px;
+    width: 100%;
+}
+.articles-about article{
+    width: calc((100% / 3) * 0.6);
+    margin: 50px;
+}
+.tour{
+    background-color: black;
 }
