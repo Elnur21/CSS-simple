@@ -27,3 +27,18 @@ header button{
     color: white;
     background-color: inherit;
 }
+.banner{
+    background-image: url(../imgs/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 45px);
+    color: white;
+    font-family:"Segoe UI",Arial,sans-serif;
+}
+.banner h2, .banner p{
+    transform: translateY(87vh);
+}
+.banner p{
+    margin-top: 30px;
+}
