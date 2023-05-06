@@ -64,9 +64,10 @@ h1 {
 }
 .second article h3 {
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 .second .parent-img {
-  margin: 10px;
+  margin: 0px 10px 1px 0;
 }
 .small-img {
   height: 80px;
@@ -82,7 +83,7 @@ h1 {
 }
 .medium-img {
   height: 100px;
-  width: 215px;
+  width: 210px;
   padding: 17% 0;
   font-size: 23px;
 }
