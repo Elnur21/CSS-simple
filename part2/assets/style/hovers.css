@@ -1,14 +1,26 @@
-header li,header button{
-    transition: 0.5s;
+header li,
+header button,
+.article-body button,
+.contact button {
+  transition: 0.5s;
 }
-header li:hover{
-    background-color: rgb(196,196,196);
-    color: black;
+header li:hover {
+  background-color: rgb(196, 196, 196);
+  color: black;
 }
-.drop:hover .dropdown{
-    display: block;
-    background-color: white;
+.drop:hover .dropdown {
+  display: block;
+  background-color: white;
 }
-header button:hover{
-    background-color: red;
+header button:hover {
+  background-color: red;
+}
+.article-body button:hover,
+.contact button:hover {
+  color: black;
+  background-color: grey;
+  cursor: pointer;
+}
+footer a:hover{
+    color: black !important;
 }
