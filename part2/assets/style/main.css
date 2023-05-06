@@ -110,7 +110,7 @@ header button {
 p.date{
     color: rgb(111, 111, 111);
 }
-.article-body button{
+.article-body button, .contact button{
     background-color: black;
     color: white;
     padding: 10px 16px;
@@ -132,7 +132,24 @@ p.date{
 }
 .contact-body{
     width: 100%;
+    padding-top: 20px;
 }
 .contact-body div{
     width: 50%;
+}
+.contact form, .contact form div{
+  width: 100%;
+}
+.contact input{
+  font-size: 16px;
+  padding: 9px;
+  outline: rgb(193, 193, 193);
+}
+.contact form #name,.contact form #email{
+  width: 48%;
+
+}
+#message{
+  margin: 2% 0;
+  width: 100%;
 }

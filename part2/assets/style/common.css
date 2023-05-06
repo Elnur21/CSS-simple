@@ -30,3 +30,6 @@ article img{
 .d-none{
     display: none;
 }
+.float-right{
+    float: right;
+}
