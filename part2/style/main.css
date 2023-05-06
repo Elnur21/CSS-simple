@@ -116,3 +116,23 @@ p.date{
     padding: 10px 16px;
     font-size: 15px;
 }
+.contact{
+    height: 50vh;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+.adresses{
+    font-size: 18px;
+}
+.adresses p{
+    margin-bottom: 10px;
+}
+.contact i{
+    margin-right: 10px;
+}
+.contact-body{
+    width: 100%;
+}
+.contact-body div{
+    width: 50%;
+}

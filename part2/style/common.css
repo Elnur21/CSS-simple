@@ -27,3 +27,6 @@ button{
 article img{
     width: 100%;
 }
+.d-none{
+    display: none;
+}
