@@ -1,6 +1,9 @@
 .text-center{
     text-align: center;
 }
+button{
+    border: none;
+}
 .container{
     width: 40%;
     margin: 0 auto;
@@ -17,4 +20,10 @@
 }
 .float-left{
     float: left;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+article img{
+    width: 100%;
 }
